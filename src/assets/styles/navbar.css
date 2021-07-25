@@ -1,0 +1,36 @@
+.navbar {
+  background-color: black;
+  box-shadow: 0px 26px 84px 0px rgba(77, 72, 77, 0.76);
+  color: #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar a {
+  vertical-align: middle;
+  text-decoration: none;
+  color: #e5e5e5;
+}
+
+.navbar a:hover {
+  color: rgb(231, 220, 220);
+  transform: scale(1.05);
+  text-decoration: none;
+}
+.navbar h1:hover {
+  transform: scale(1.05);
+}
+
+.home-title {
+  background-color: #544d2a;
+  text-align: center;
+  padding: 7px;
+  border-radius: 7px;
+}

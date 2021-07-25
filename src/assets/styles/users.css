@@ -1,0 +1,16 @@
+.users-container {
+  padding-top: 100px;
+  color: white;
+  font-size: 20px;
+}
+
+.userfavs-container {
+  padding-top: 100px;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.fav-info-container {
+  color: white;
+  padding-top: 20px;
+}

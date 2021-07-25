@@ -1,0 +1,52 @@
+.form {
+  width: 600px;
+}
+
+.input {
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 70px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.select {
+  font-weight: bold;
+  font-size: 12px;
+  position: relative;
+  outline: none;
+  border-radius: 5px;
+  left: 60px;
+  background: white;
+  border: none;
+  width: 59px;
+}
+
+.search-icon {
+  font-weight: 900;
+  width: 25px;
+  stroke: red;
+  fill: red;
+  cursor: pointer;
+  position: relative;
+  right: 30px;
+  font-size: 15px;
+}
+.search-icon:hover {
+  transform: scale(1.04);
+}
+
+.search-message {
+  font-size: 15px;
+  position: absolute;
+  padding-left: 120px;
+  color: red;
+  font-weight: 700;
+}

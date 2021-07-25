@@ -1,0 +1,27 @@
+.video-responsive {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 70px;
+  padding-left: 50px;
+  position: absolute;
+  align-items: flex-end;
+
+  z-index: 500;
+}
+
+.close-youtube {
+  position: relative;
+  width: 20%;
+  height: 40px;
+  color: white;
+  background: rgba(160, 160, 160, 0.5);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.close-youtube:hover {
+  transform: scale(1.05);
+}

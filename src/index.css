@@ -1,0 +1,23 @@
+:root {
+  --whitefontColor: #e5e5e5;
+  --fontColor: #7d7248;
+  --thirdColor: #544d2a;
+  --primaryColor: #373018;
+  --backgroundColor: #000100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    90deg,
+    rgba(25, 25, 25, 1) 0%,
+    rgba(9, 9, 9, 1) 95%
+  );
+}

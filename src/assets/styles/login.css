@@ -1,0 +1,94 @@
+.login-all {
+  padding-top: 200px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 25%;
+  background-color: transparent;
+  color: var(--whitefontColor);
+  padding-left: 20px;
+}
+
+.form-container h3 {
+  font-size: 40px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  padding: 30px;
+  padding-top: 10px;
+}
+
+.label-style {
+  padding-right: 10px;
+  padding-left: 5px;
+
+  width: 300px;
+}
+.form-control {
+  font-size: 0.8rem;
+  padding-left: 5px;
+  background-color: var(--whitefontColor);
+  border-radius: 5px;
+  border: none;
+}
+
+.form-container button {
+  background-color: var(--whitefontColor);
+  color: black;
+  font-weight: 700;
+  padding: 15px;
+  margin-left: 40px;
+}
+.credentials {
+  padding-top: 60px;
+  color: white;
+}
+.credentials a {
+  padding-top: 60px;
+  color: green;
+}
+
+.form-container p {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.link-click:hover {
+}
+
+.btn-submit:hover {
+  transform: scale(1.05);
+}
+
+.btn-submit:active {
+  transform: translateY(4px);
+}
+
+.pop-up {
+  position: relative;
+  color: red;
+}
+
+.google-auth {
+  padding-top: 20px;
+  color: red;
+}
+
+.google-btn {
+  border-radius: 10px;
+  padding-top: 50px;
+  border: none;
+}
+.google-btn a {
+  outline: none;
+  color: black;
+}
+
+.google-btn:hover {
+  transform: scale(1.05);
+}

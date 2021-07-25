@@ -1,0 +1,44 @@
+.favs-container {
+  padding-top: 100px;
+  padding-left: 250px;
+}
+.favs {
+  background-color: rgb(124, 120, 120, 0.1);
+  margin: 0 100px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.favs-title {
+  font-size: 40px;
+  padding-left: 20px;
+  color: var(--whitefontColor);
+}
+
+.movie-favs-container {
+  color: white;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 5px;
+  padding-left: 0px;
+  margin: 10px;
+  max-width: 500px;
+  display: flex;
+  border-bottom: 2px solid white;
+  justify-content: space-between;
+}
+
+.favs-movie-title {
+  color: rgb(172, 172, 172);
+  font-size: 25px;
+}
+
+.secondary-title-favs {
+  font-size: 15px;
+}
+
+.right-favs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
